@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-width {
+  @apply max-w-[1920px] mx-auto px-6 lg:px-20;
+}
+
+.btn-hero {
+  border: 1px solid rgba(1, 35, 121, 0.66);
+  background: rgba(255, 253, 253, 0.29);
+}
+
+.contact {
+  background: url(../../public//images/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.benefit {
+  background: url(../../public//images/benefit-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
